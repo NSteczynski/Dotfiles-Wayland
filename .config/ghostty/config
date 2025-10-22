@@ -48,3 +48,5 @@ app-notifications = false
 desktop-notifications = false
 
 scrollback-limit = 4096
+
+link = 
