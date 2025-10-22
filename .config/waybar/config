@@ -1,0 +1,20 @@
+{
+  "layer": "top",
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": [],
+  "modules-right": ["pulseaudio","clock"],
+  "margin": "10px 10px 0px 10px",
+  "clock": {
+    "interval": 60,
+    "format": "  {:%A, %b %d %I:%M %p}"
+  },
+  "pulseaudio": {
+    "format": "{icon}  {volume}% {format_source}",
+    "format-muted": " {format_source}",
+    "format-source": " {volume}%",
+    "format-source-muted": "",
+    "format-icons": {
+      "default": ["", "", ""]
+    },
+  },
+}

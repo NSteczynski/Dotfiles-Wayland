@@ -1,0 +1,8 @@
+width=512
+height=481
+show=drun
+insensitive=true
+allow_images=true
+image_size=27
+key_up=Ctrl-k
+key_down=Ctrl-j

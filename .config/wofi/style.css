@@ -1,0 +1,43 @@
+#window {
+  background-color: #1d2021;
+  font-family: terminus;
+  background-color: #1d2021;
+}
+
+#text {
+  color: #d4be98;
+  margin-left: 5px;
+}
+
+#outer-box {
+  border: 1px solid #89b482;
+}
+
+#input {
+  border: none;
+  color: #d4be98;
+  background-color: #1d2021;
+  border-radius: 0px;
+  box-shadow: none;
+  padding: 5px 10px;
+}
+
+#input > image {
+  color: #d4be98;
+}
+
+#inner-box {
+  margin: 0px;
+}
+
+#entry {
+  padding: 5px 10px;
+}
+
+#entry:selected {
+  background-color: #d4be98;
+}
+
+#text:selected {
+  color: #1d2021;
+}

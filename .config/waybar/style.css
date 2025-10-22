@@ -1,0 +1,57 @@
+* {
+  font-family: terminus;
+  font-size: 13px;
+}
+
+window#waybar {
+  background-color: transparent;
+}
+
+.modules-left,
+.modules-right {
+  border: 1px solid #d4be98;
+}
+
+.modules-left {
+  min-width: 260px;
+}
+
+.modules-right {
+  padding: 0px 5px;
+}
+
+button {
+  border: none;
+  border-radius: 0;
+  color: #d4be98;
+}
+
+button:hover,
+#workspaces .active {
+  background:  #d4be98;
+  color: #1d2021;
+}
+
+#workspaces button {
+  padding: 0 5px;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#mpd {
+  padding: 0 5px;
+  color: #d4be98;
+}
